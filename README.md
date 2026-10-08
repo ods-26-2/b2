@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-teste
-=======
 # 🕒 Global Time Service (`global-time-service`)
 
 > Responsável por fornecer o tempo de captura global sincronizado para todos os componentes do sistema.
