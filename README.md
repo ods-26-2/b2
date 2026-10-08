@@ -61,15 +61,15 @@ Para solicitar o tempo de captura global, publique no tópico **`ods/system/time
 
 ## Como Executar o Docker
 
-1. **Construir a Imagem**
+1. **Construir a Imagem**\
 docker build -t global-time-service:latest .
 
-2. **Subir o Container**
+2. **Subir o Container**\
 docker run -d \
   --name global-time-service \
   -e BROKER_ADDRESS="broker.hivemq.com" \
   -e BROKER_PORT=1883 \
   global-time-service:latest
 
-3. **Verificar Logs**
+3. **Verificar Logs**\
 docker logs -f global-time-service
