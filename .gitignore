@@ -1,0 +1,21 @@
+# Python / Ambientes virtuais
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+env/
+
+# IDEs e Editores
+.vscode/
+.idea/
+*.swp
+
+# Docker / Logs
+*.log
+.docker/
+
+# Arquivos do Sistema Operacional
+.DS_Store
+Thumbs.db
